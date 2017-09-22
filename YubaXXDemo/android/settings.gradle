@@ -1,0 +1,3 @@
+rootProject.name = 'YubaXXDemo'
+
+include ':app'
