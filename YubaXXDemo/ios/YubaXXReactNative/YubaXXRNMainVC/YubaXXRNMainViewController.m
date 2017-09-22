@@ -84,8 +84,8 @@
   NSString *resultJSCode = patch_applyPatchesToText(convertedPatches, commonBundleJSCode, 0);
   NSLog(@"resultJSCode(合成后大小)__%tu",resultJSCode.length);
   
-  NSLog(@"XX_异步执行");
-  NSLog(@"XX_异步开始");
+  NSLog(@"XX_执行");
+  NSLog(@"XX_开始");
   BOOL finishWrite = [resultJSCode writeToFile:filePath atomically:NO encoding:NSUTF8StringEncoding error:nil];
   if (finishWrite) {
     NSLog(@"XX_完成写入");
